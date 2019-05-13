@@ -1,0 +1,21 @@
+{
+    "name": "arif98741/fake-product",
+    "description": "This is a product generation fake repository inspired from most popular repository Faker. Its mainly do focus on generating products, categories, sub-categories, model, size, color, company_name, supplier_name. This is still under development. Stable version will release soon.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ariful",
+            "email": "arifsofg@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "FakeProduct\\":"src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+
+    }
+}
