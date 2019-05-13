@@ -1,1 +1,7 @@
-/vendor/
+vendor
+.phpintel
+.idea
+.vscode
+*.zip
+*.iml
+
