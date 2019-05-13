@@ -16,7 +16,7 @@
         public function RandomGenerate()
         {
             include $this->file;
-            $rand = rand(0,count($brands)-1);
+            $rand = rand(0,count(array_s)-1);
             return $brands[$rand];
         }
 	}

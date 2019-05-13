@@ -5,14 +5,11 @@
 	use FakeProduct\Provider\Brand\Brand;
 	use FakeProduct\Generate;
 
-
-	$generate = new \FakeProduct\Generate();
-	$brand    = new \FakeProduct\Provider\Brand\Brand;
-
-	$generate->randomGenerate("\FakeProduct\Provider\Brand\Brand");
-	for($i = 0; $i<4; $i++){
-		echo $brand->RandomGenerate();
-		echo "<br>";
-	}
+	$obj =  new \FakeProduct\Generate;
+	$obj->test;
+	$obj->test();
+	//echo "<pre>";
+	//print_r($obj);
+	
 	
 ?>
